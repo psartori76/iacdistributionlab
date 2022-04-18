@@ -1,3 +1,5 @@
+# Arquivo YML de teste do LAB
+
 title: "Resource Manager Demo Stack"
 stackDescription: "Stack para demonstrar como usar o Resource Manager no Oracle Cloud."
 schemaVersion: 1.1.0

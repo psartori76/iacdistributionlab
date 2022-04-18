@@ -1,3 +1,5 @@
+# Arquivo de teste
+
 variable "compartment_ocid" {}
 variable "region" {}
 variable "bucket_name" {}
