@@ -1,11 +1,8 @@
-# Arquivo YML de teste do LAB
-
 title: "Resource Manager Demo Stack"
 stackDescription: "Stack para demonstrar como usar o Resource Manager no Oracle Cloud."
 schemaVersion: 1.1.0
 version: "20200301"
 locale: “en"
-logoUrl: https://objectstorage.us-phoenix-1.oraclecloud.com/n/toddrsharp/b/object-upload-demo-public/o/Todd_Head_Square_130_x_130.png
 
 variableGroups:
   - title: "Informações Necessárias"
