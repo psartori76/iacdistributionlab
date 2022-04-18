@@ -13,7 +13,7 @@ data "oci_objectstorage_namespace" "namespace" {
 resource "oci_objectstorage_bucket" "create_bucket" {
     compartment_id = var.compartment_ocid
     name = var.bucket_name
-    namespace = var.bucket_namespace
+    namespace = data.oci_objectstorage_namespace.namespace.namespace
     access_type = "NoPublicAccess"
 }
 
